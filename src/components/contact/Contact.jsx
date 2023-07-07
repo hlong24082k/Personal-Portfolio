@@ -28,21 +28,21 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>hlong.24082k@gmail.com</h5>
-            <a href="mailto:hlong.24082k@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:hlong.24082k@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <RiMessageLine className='contact__option-icon'/>
             <h4>Messager</h4>
             <h5>Hoang Long</h5>
-            <a href="https://m.me/hlong.24082k" target='_blank'>Send a message</a>
+            <a href="https://m.me/hlong.24082k" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <RiSkypeLine className='contact__option-icon'/>
             <h4>Skype</h4>
             <h5>Long Le</h5>
-            <a href="https://join.skype.com/invite/yP8qM51Rbokh" target='_blank'>Send a message</a>
+            <a href="https://join.skype.com/invite/yP8qM51Rbokh" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div> 
 

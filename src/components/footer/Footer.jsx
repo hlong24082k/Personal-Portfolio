@@ -6,10 +6,10 @@ import {BsLinkedin, BsGithub, BsSkype} from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Hoang Long</a>
+      <a href="/#" className='footer__logo'>Hoang Long</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="/#">Home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#experience">experience</a></li>
         <li><a href="#services">services</a></li>
@@ -18,9 +18,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://linkedin.com/in/long-lê-841b96215" target='_blank'><BsLinkedin/></a>
-        <a href="https://github.com/hlong24082k" target='_blank'><BsGithub/></a>
-        <a href="https://join.skype.com/invite/yP8qM51Rbokh" target='_blank'><BsSkype/></a>
+        <a href="https://linkedin.com/in/long-lê-841b96215" target='_blank' rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com/hlong24082k" target='_blank' rel="noreferrer"><BsGithub/></a>
+        <a href="https://join.skype.com/invite/yP8qM51Rbokh" target='_blank' rel="noreferrer"><BsSkype/></a>
       </div>
 
       <div className="footer__copyright">
