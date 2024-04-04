@@ -38,6 +38,14 @@ const Experience = () => {
                 </div>
               </article>
 
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Docker</h4>
+                  <small className="text-alight">Experienced</small>
+                </div>
+              </article>
+
             </div>
           </div>
 
@@ -56,7 +64,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>CSS</h4>
+                  <h4>CSS/SCSS/TAILWIND</h4>
                   <small className="text-alight">Experienced</small>
                 </div>
               </article>
@@ -80,7 +88,15 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>FastAPI-Python</h4>
+                  <h4>FastAPI</h4>
+                  <small className="text-alight">Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>ExpressJs</h4>
                   <small className="text-alight">Experienced</small>
                 </div>
               </article>

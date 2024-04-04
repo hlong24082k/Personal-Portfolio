@@ -5,20 +5,20 @@ import portfolio3 from '../assets/portfolio3.jpg';
 export const PORTFOLIO_DATA = [
     {
         id: 1,
-        image: portfolio1,
-        title: 'Employee manager Web',
-        github: 'https://github.com/hlong24082k/Web_Employee_manager'
+        image: portfolio3,
+        title: 'DreamTravel',
+        github: 'https://github.com/hlong24082k/DreamTravel'
     },
     {
         id: 2,
-        image: portfolio2,
-        title: 'Employee manager Web',
-        github: 'https://github.com/hlong24082k/Web_Employee_manager'
+        image: portfolio1,
+        title: 'Manager Dasboard',
+        github: 'https://github.com/hlong24082k/userManager'
     },
     {
         id: 3,
-        image: portfolio3,
-        title: 'Employee manager Web',
-        github: 'https://github.com/hlong24082k/Web_Employee_manager'
-    },
+        image: portfolio2,
+        title: 'Sonarqube',
+        github: 'https://github.com/hlong24082k/sonarqube-docker-setup'
+    }
 ];

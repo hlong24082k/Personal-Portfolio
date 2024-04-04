@@ -18,27 +18,22 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>OCR</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>EKYC</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>Text Generation</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>Knowledge Graph</p>
             </li>
           </ul>
         </article>
@@ -46,34 +41,25 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Web Deverlopment</h3>
+            <h3>Web Deverloper</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>eCommerce</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>Dashboard</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
+              <p>Travel Platform</p>
             </li>
 
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>introduction</p>
-            </li>
           </ul>
         </article>
         {/* end of Web services */}
