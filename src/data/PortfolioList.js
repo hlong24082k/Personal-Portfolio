@@ -7,18 +7,21 @@ export const PORTFOLIO_DATA = [
         id: 1,
         image: portfolio3,
         title: 'DreamTravel',
-        github: 'https://github.com/hlong24082k/DreamTravel'
+        github: 'https://github.com/hlong24082k/DreamTravel',
+        demo: 'https://dream-travel-client.vercel.app/'
     },
     {
         id: 2,
         image: portfolio1,
         title: 'Manager Dasboard',
-        github: 'https://github.com/hlong24082k/userManager'
+        github: 'https://github.com/hlong24082k/userManager',
+        demo: ''
     },
     {
         id: 3,
         image: portfolio2,
         title: 'Sonarqube',
-        github: 'https://github.com/hlong24082k/sonarqube-docker-setup'
+        github: 'https://github.com/hlong24082k/sonarqube-docker-setup',
+        demo: ''
     }
 ];

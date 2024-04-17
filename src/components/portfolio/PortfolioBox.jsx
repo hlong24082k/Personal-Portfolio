@@ -1,12 +1,12 @@
 import React from 'react'
 
 const PortfolioBox = (item) => {
-    const { id, image, title, github } = item.data;
+    const { image, title, github, demo } = item.data;
 
     return (
-      <article key={id} className='portfolio__item'>
+      <article className='portfolio__item'>
         <div className="portfolio__item-image">
-          <img src={image} alt={title} />
+          <a href={demo==="" ? github : demo} target='_blank'><img src={image} alt={title} /></a>
         </div>
         <h3>{title}</h3>
         <a href={github} className='btn btn-primary' target='_blank' rel="noreferrer">Github</a>

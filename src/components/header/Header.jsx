@@ -3,6 +3,7 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import './header.css'
 import ME from '../../assets/personal.png'
+import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
   return (
@@ -10,7 +11,21 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Hoang Long</h1>
-        <h5 className="text-light">AI ENGINEER / WEB DEVERLOPER</h5>
+        <TypeAnimation
+          className="text-light"
+          sequence={[
+            'AI ENGINEER',
+            1000, // Waits 1s
+            'WEB DEVERLOPER',
+            1000,
+            () => {
+              console.log('Sequence completed');
+            },
+          ]}
+          wrapper="span"
+          cursor={true}
+          repeat={Infinity}
+        />
         <CTA />
         <HeaderSocials />
         <div className="me">

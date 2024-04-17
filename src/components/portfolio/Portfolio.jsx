@@ -12,7 +12,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {PORTFOLIO_DATA.map((portfolio) => (
-          <PortfolioBox data={portfolio} />
+          <PortfolioBox key={portfolio.id} data={portfolio} />
         ))}
       </div>
     </section>
